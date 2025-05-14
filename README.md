@@ -1,5 +1,5 @@
-# SBC_hat
-SBC Flight Companion PCB Hat
+# SBC_GPIO_hat
+
 GPIO PCB Hat design to be used on slim form factor SBC such as Pi Zero family. 
 The architecture is: 
 VIDEO Signal: [Analog cam]->[AV2USB converter]->[SBC processing]->[HDMI2AV converter]->[FC Video-in] 
