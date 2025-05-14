@@ -1,4 +1,4 @@
-# SBC_GPIO_hat
+# SBC_GPIO_Hat
 
 GPIO PCB Hat design to be used on slim form factor SBC such as Pi Zero family. 
 The architecture is: 
