@@ -5,6 +5,6 @@ The architecture is:<br>
 - VIDEO Signal: [Analog cam]->[AV2USB converter]->[SBC processing]->[HDMI2AV converter]->[FC Video-in] <br>
 - UART: [SBC GPIO UART GND/Rx/Tx]->[FC UART GND/Tx/Rx] <br>
 The Hat makes possible to add functionality to Betaflight/iNav based FC such as: autopilot/MCP override/visual AI etc [based on the software you deploy on SBC].
-<img width="1429" alt="Git-1" src="https://github.com/user-attachments/assets/53720cfb-d695-4b3a-8476-cd9464b07500" />
+<img width="1426" alt="Git-1" src="https://github.com/user-attachments/assets/9323dd50-2cdb-41dd-a0d4-35c062cf9761" />
 <img width="1346" alt="Git-2" src="https://github.com/user-attachments/assets/e13ba533-d870-47a3-937d-d5ce8fe62537" />
 
