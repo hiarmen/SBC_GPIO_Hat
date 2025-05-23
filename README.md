@@ -9,7 +9,7 @@ The Hat makes possible to add functionality to Betaflight/iNav based FC such as:
 <img width="1346" alt="Git-2" src="https://github.com/user-attachments/assets/e13ba533-d870-47a3-937d-d5ce8fe62537" /><br>
 
 2. GPIO PCB Hat design to be used on slim form factor SBC such as Pi Zero family.<br> 
-The PARALLEL architecture:<br> 
+The <b>PARALLEL<b> architecture:<br> 
 - VIDEO Signal: [Analog cam]->[AV2USB converter]->[SBC processing]->[HDMI2AV converter]->[FC Video-in] <br>
 - UART: [SBC GPIO UART GND/Rx/Tx]->[FC UART GND/Tx/Rx] <br>
            +-------------------+
