@@ -12,8 +12,8 @@ The Hat makes possible to add functionality to Betaflight/iNav based FC such as:
 The PARALLEL architecture:<br> 
 - VIDEO Signal: [Analog cam]->[AV2USB converter]->[SBC processing]->[HDMI2AV converter]->[FC Video-in] <br>
 - UART: [SBC GPIO UART GND/Rx/Tx]->[FC UART GND/Tx/Rx] <br>
- +-------------------+
-           |   Ratel Pro Cam   |
+           +-------------------+
+           |       Camera      |
            +-------------------+
               |    |    |
               |    |    +----▶ GND ───▶ FC GND + USB Grabber GND
@@ -24,4 +24,4 @@ The PARALLEL architecture:<br>
                        +----▶ FC CAM IN
                        |
                        +----▶ USB Grabber RCA (Video In)
-![image](https://github.com/user-attachments/assets/0d01c2ca-f49f-4da0-b7fa-344a3c75c09d)
+<img width="456" alt="image" src="https://github.com/user-attachments/assets/4d5ed286-f877-467b-b871-25e8fde59fc8" />
