@@ -1,7 +1,7 @@
 # SBC_GPIO_Hat
 
 1. GPIO PCB Hat design to be used on slim form factor SBC such as Pi Zero family.<br> 
-The <font color="red">HDMI</font> architecture:<br> 
+The <b>HDMI</b> architecture:<br> 
 - VIDEO Signal: [Analog cam]->[AV2USB converter]->[SBC processing]->[HDMI2AV converter]->[FC Video-in] <br>
 - UART: [SBC GPIO UART GND/Rx/Tx]->[FC UART GND/Tx/Rx] <br>
 The Hat makes possible to add functionality to Betaflight/iNav based FC such as: autopilot/MCP override/visual AI etc [based on the software you deploy on SBC].
