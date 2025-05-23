@@ -13,15 +13,16 @@ The PARALLEL architecture:<br>
 - VIDEO Signal: [Analog cam]->[AV2USB converter]->[SBC processing]->[HDMI2AV converter]->[FC Video-in] <br>
 - UART: [SBC GPIO UART GND/Rx/Tx]->[FC UART GND/Tx/Rx] <br>
            +-------------------+
-           |       Camera      |
+           |    Analog Camera  |
            +-------------------+
               |    |    |
               |    |    +----▶ GND ───▶ FC GND + USB Grabber GND
-              |    +---------▶ 5V ───▶ FC CAM VCC
+              |    +<--------- 5V  <─── FC CAM VCC [or SBC VCC]
               |
               └────▶ VIDEO OUT (YELLOW)
                        |
                        +----▶ FC CAM IN
                        |
-                       +----▶ USB Grabber RCA (Video In)
-<img width="456" alt="image" src="https://github.com/user-attachments/assets/4d5ed286-f877-467b-b871-25e8fde59fc8" />
+                       +----▶ USB Grabber RCA (Video In) ---> SBC USB IN
+  
+<img width="520" alt="image" src="https://github.com/user-attachments/assets/ba134549-7210-4e47-971a-9a1daab1ecb4" />
