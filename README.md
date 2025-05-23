@@ -16,5 +16,5 @@ The <b>PARALLEL<b> architecture:<br>
   
 <img width="520" alt="image" src="https://github.com/user-attachments/assets/ba134549-7210-4e47-971a-9a1daab1ecb4" /><br><br>
 The key difference between these two methods:<br>
-1. HDMI version: worked with HDMI display, but did not work well with FC OSD. Probably FC not compatible HDMI module. Got flickering video feed on goggles.<br>
+1. HDMI version: worked with HDMI display, but did not work well with FC OSD. Got flickering video feed on goggles (probably FC not compatible HDMI module).<br>
 2. PARALLEL version: direct video feed from camera, yet allows SBC to implement functions over MSP. More reliable, however functions are not reflected on OSD.
